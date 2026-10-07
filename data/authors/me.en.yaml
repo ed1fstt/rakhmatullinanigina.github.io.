@@ -1,1 +1,30 @@
-
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Nigina Rakhmatullina
+  given: Nigina
+  family: Rakhmatullina
+pronouns: PhD Researcher
+status:
+  icon: "🎓"
+role: PhD Applicant / Researcher
+bio: |
+  Nigina Rakhmatullina conducts scientific research in the field of ##### sciences. Her research results are regularly published in peer-reviewed scientific journals and presented at international scientific and practical conferences.
+affiliations:
+  - name: Institute / Department
+    url: ''
+links:
+  - icon: at-symbol
+    url: 'mailto:rakhmatullinanigina@gmail.com'
+    label: Email Me
+  - icon: brands/orcid
+    url: 'https://orcid.org/0000-0000-0000-0000'
+  - icon: academicons/google-scholar
+    url: 'https://scholar.google.com/'
+  - icon: brands/researchgate
+    url: 'https://www.researchgate.net/'
+interests:
+  - Books
+  - Flowers
+  - 3D Printing
