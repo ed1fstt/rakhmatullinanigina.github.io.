@@ -74,3 +74,9 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+  params:
+  branding:
+    logo:
+      filename: favicon.png
+      icon: true
