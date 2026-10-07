@@ -77,4 +77,4 @@ sitemap:
   params:
   custom_head: |
     <link rel="icon" type="image/x-icon" href="/static/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.icopng">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.png">
