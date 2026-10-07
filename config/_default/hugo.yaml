@@ -74,9 +74,7 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
-
   params:
-  branding:
-    logo:
-      filename: favicon.png
-      icon: true
+  custom_head: |
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.icopng">
