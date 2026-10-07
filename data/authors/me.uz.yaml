@@ -1,1 +1,31 @@
 
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Raxmatullina Nigina
+  given: Nigina
+  family: Raxmatullina
+pronouns: izlanuvchi
+status:
+  icon: "🎓"
+role: Ilmiy daraja daʼvogari (PhD izlanuvchisi)
+bio: |
+  Raxmatullina Nigina pedagogika va filologiya fanlari sohasida ilmiy tadqiqot olib bormoqda. Uning ish natijalari nufuzli taqriz qilinadigan ilmiy jurnallarda muntazam ravishda chop etilib, xalqaro ilmiy-amaliy anjumanlarda taqdim etib kelinmoqda.
+affiliations:
+  - name: Institut / Kafedra
+    url: ''
+links:
+  - icon: at-symbol
+    url: 'mailto:rakhmatullinanigina@gmail.com'
+    label: Email yozish
+  - icon: brands/orcid
+    url: 'https://orcid.org/0000-0000-0000-0000'
+  - icon: academicons/google-scholar
+    url: 'https://scholar.google.com/'
+  - icon: brands/researchgate
+    url: 'https://www.researchgate.net/'
+interests:
+  - Kitoblar
+  - Gullar
+  - 3D Chop etish
