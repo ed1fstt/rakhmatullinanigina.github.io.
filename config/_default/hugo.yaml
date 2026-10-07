@@ -3,19 +3,30 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+# Website name
+title: 'Рахматуллина Нигина'
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://rakhmatullinanigina.uz/'
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: ru
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+languages:
+  ru:
+    languageName: Русский
+    weight: 1
+  uz:
+    languageName: Oʻzbekcha
+    weight: 2
+  en:
+    languageName: English
+    weight: 3
 
 ############################
 ## PAGE OPTIONS
