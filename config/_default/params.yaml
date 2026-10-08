@@ -35,7 +35,7 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-     pack: "default"
+    pack: "default"
     # Optional: Override theme pack colors
     colors:
       primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
@@ -89,9 +89,9 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: false
-    theme_picker: false
-    language_switcher: false
+    theme_toggle: true
+    theme_picker: true
+    language_switcher: true
     # Call-to-action button
     cta:
       enable: false
@@ -105,7 +105,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: false
+    language_switcher: true
     # Custom footer text (HTML supported)
     text: ""
 
