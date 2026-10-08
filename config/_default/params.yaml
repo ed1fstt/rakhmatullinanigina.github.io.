@@ -59,9 +59,14 @@ hugoblox:
   # TYPOGRAPHY
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
-  typography:
+  #typography:
     # Theme pack: name from data/fonts/
-    pack: "academic"
+ #   pack: "academic"
+   typography:
+    # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
+    font: "sans"
+    # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
+    size: "md"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -69,7 +74,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "sm"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
     # Avatar shape in author profiles
