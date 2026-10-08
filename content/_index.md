@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title 
-title: ''
+title: 'Профессиональное резюме'
 summary: ''
 date: 2022-10-24
 type: landing
@@ -8,7 +8,7 @@ type: landing
 sections:
   - block: resume-biography-3
     content:
-      title: 'Профессиональное резюме'
+      #title: 'Профессиональное резюме'
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
