@@ -200,11 +200,7 @@ hugoblox:
   # IMAGE
   # Site images for social sharing and branding
   # ────────────────────────────────────────────────────────────────────────────
-  image:
-    # Default preview/social sharing image
-    # preview: ""
-    # Optional: Favicon (16x16, 32x32, 48x48 PNG or ICO)
-    favicon: "favicon.svg"
+ 
 
   # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
