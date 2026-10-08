@@ -17,17 +17,6 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
-languages:
-  ru:
-    languageName: Русский
-    weight: 1
-  uz:
-    languageName: Oʻzbekcha
-    weight: 2
-  en:
-    languageName: English
-    weight: 3
-
 ############################
 ## PAGE OPTIONS
 ############################
