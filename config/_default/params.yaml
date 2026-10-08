@@ -76,7 +76,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "sm"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "spacious"
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
@@ -94,7 +94,7 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: false
-    theme_toggle: false
+    theme_toggle: true
     theme_picker: false
     language_switcher: false
     # Call-to-action button
@@ -170,7 +170,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa # apa | mla | chicago | ieee
+      style: ieee # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
@@ -197,6 +197,14 @@ hugoblox:
       category_id: ""
     disqus:
       shortname: ""
+  # IMAGE
+  # Site images for social sharing and branding
+  # ────────────────────────────────────────────────────────────────────────────
+  image:
+    # Default preview/social sharing image
+    # preview: ""
+    # Optional: Favicon (16x16, 32x32, 48x48 PNG or ICO)
+    favicon: "favicon.svg"
 
   # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
