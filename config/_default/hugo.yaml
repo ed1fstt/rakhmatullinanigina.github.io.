@@ -28,6 +28,27 @@ cascade:
     outputs: [HTML, present]
 
 ############################
+## PARAMS & THEME SETTINGS
+############################
+
+params:
+  # Фиксация темы оформления (Retro) и отключение переключателей
+  appearance:
+    theme_day: retro
+    theme_night: retro
+    font: classic
+  
+  # Отключение поиска и динамического выбора темы в шапке
+  features:
+    search:
+      provider: none
+    dark_mode: false
+
+  # Увеличение размера аватара (доступные варианты: large, xlarge или указание в стилях)
+  avatar:
+    size: xlarge
+
+############################
 ## ADVANCED
 ############################
 
