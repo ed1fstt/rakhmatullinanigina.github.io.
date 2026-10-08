@@ -27,23 +27,6 @@ cascade:
       kind: page
     outputs: [HTML, present]
 
-############################
-## PARAMS & THEME SETTINGS
-############################
-
-params:
-  # Фиксация темы оформления (Retro) и отключение переключателей
-  appearance:
-    theme_day: retro
-    theme_night: retro
-    font: classic
-  
-  # Отключение поиска и динамического выбора темы в шапке
-  features:
-    search:
-      provider: none
-    dark_mode: false
-
 
 ############################
 ## ADVANCED
