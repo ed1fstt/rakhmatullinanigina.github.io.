@@ -27,12 +27,15 @@ sections:
 
       # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
+        size: compact # Options: xs, sm, md, lg (default), xl
 
       # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+        
+      spacing:
+        padding: ['0rem', '2rem', '0rem', '0rem']
   - block: markdown
     content:
       title: '📚 My Research'
