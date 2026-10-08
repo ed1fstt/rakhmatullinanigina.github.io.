@@ -44,9 +44,6 @@ params:
       provider: none
     dark_mode: false
 
-  # Увеличение размера аватара (доступные варианты: large, xlarge или указание в стилях)
-  avatar:
-    size: xlarge
 
 ############################
 ## ADVANCED
