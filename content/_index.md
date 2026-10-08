@@ -31,9 +31,9 @@ sections:
 
       # Avatar customization
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: small # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-        
+
       spacing:
         padding: ['0rem', '2rem', '0rem', '0rem']
   - block: markdown
