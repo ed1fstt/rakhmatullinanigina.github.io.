@@ -75,6 +75,4 @@ security:
 sitemap:
   _merge: deep
   params:
-  custom_head: |
-    <link rel="icon" type="image/x-icon" href="/assets/media/favicon.svg">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/media/favicon.svg">
+  
